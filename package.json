@@ -1,0 +1,48 @@
+{
+  "name": "sdn-app-v2",
+  "version": "1.0.0",
+  "description": "web backend to coordinate controllers and database data to present restful api for web frontend ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-local-storage": "^0.2.7",
+    "archiver": "^0.21.0",
+    "body-parser": "^1.10.0",
+    "bunyan": "^1.8.1",
+    "child-process-promise": "^1.1.0",
+    "colors": "^1.0.3",
+    "commander": "^2.9.0",
+    "connect-multiparty": "^2.0.0",
+    "decompress-zip": "^0.2.0",
+    "dockerode": "^2.2.10",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "image-size": "^0.3.5",
+    "ip": "^1.1.0",
+    "lodash": "^4.9.0",
+    "md5": "^2.1.0",
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "pg": "^4.4.2",
+    "pg-native": "^1.9.0",
+    "request": "^2.49.0",
+    "request-promise": "^1.0.2",
+    "sha256": "^0.2.0",
+    "shell-quote": "^1.4.3",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "websocket": "^1.0.22",
+    "xml2js": "^0.4.13"
+  },
+  "devDependencies": {
+    "nock": "^0.59.1",
+    "should": "^5.0.1",
+    "readcommand": "^0.3.0"
+  }
+}
